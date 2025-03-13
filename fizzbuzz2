@@ -1,0 +1,8 @@
+##este fizzbuzz se hizo con comprehesd list, esta curisoo
+
+##basicament voy a tratar de hacer fizzbuzz con lo que enseño hoy caro
+L2 = []
+for i in range(0, 101):
+    fizzbuzz = ["fizzbuzz" if i%3<1 and i%5<1 else "fizz" if i%3<1 else "buzz" if i%5<1 else i for i in range (0,101)]
+    pass
+print(fizzbuzz)
