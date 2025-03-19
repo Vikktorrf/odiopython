@@ -107,8 +107,7 @@ print(lista_ganados)
 
 
 ## ESTA ES LA VERSION FINAL QUE CREO QUE CONTIENE TODO
-
-"""
+```python
 equipos = {}
 while True:
     nombre = input("Ingrese el nombre del equipo (o 'salir' para terminar): ")
@@ -149,7 +148,9 @@ for equipo, datos in equipos.items():
         porcentaje_perdidos = 0
     print(f"Equipo: {equipo} - Partidos ganados: {ganados} - Porcentaje de partidos ganados: {porcentaje_ganados:.2f}% - Porcentaje de partidos perdidos: {porcentaje_perdidos:.2f}%")
     lista_ganados.append((equipo, ganados))
+ ##si no les deja usar esto usen burbuja 
+    lista_ganados.sort()
 
 print("\nLista de equipos y partidos ganados (lista_ganados):")
 print(lista_ganados)
-"""
+```
